@@ -1,0 +1,106 @@
+/* sıtenın en basındakı header */
+header.header-hero{
+    background-color: #212934;
+}
+/* navbar brend logo renk */
+a.navbar-brand,
+a.navbar-brand:hover{
+    color: #5aac6e;
+}
+/* navbar ıcındekı lınklerın hover olunca rengı degısmesı */
+ul.navbar-link-color li a:hover{
+    color: #5aac6e;
+}
+/* navbar ıcon yanyana gelme */
+@media (max-width: 991px) {
+  .navbar-collapse ul:last-child {
+    flex-direction: row !important;
+    justify-content: start;
+  }
+  .navbar-collapse ul:last-child li {
+    padding: 0 10px;
+  }
+}
+/* carousel arka plan rengı ayarlama */
+div.carousel-inner{
+    background-color: #efefef;
+}
+
+/* carousel header ıcındekı okları hızalamak */
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Ortalamak için */
+    transform: translateY(-50%);
+    width: auto; /* Genişlik varsayılanı kaldır */
+  } 
+  .carousel-control-prev {
+    left: 1%; /* Sol kenara yapıştır */
+  }
+  .carousel-control-next {
+    right: 1%; /* Sağ kenara yapıştır */
+  }
+  
+
+/* Okların rengi ve başlangıç opaklığı */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #5aac6e; /* Açık yeşil */
+  opacity: 0.5; /* Şeffaflık ayarı */
+  border-radius: 50%; /* Yuvarlak hatlar için */
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease, background-color 0.3s ease; /* Hover geçişi */
+}
+
+/* Okların üzerine gelindiğinde tam renk */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  opacity: 1; /* Tam opaklık */
+}
+
+/* Geçiş kutucuklarının (indikatorlar) başlangıç rengi */
+.carousel-indicators button {
+    background-color: rgba(90, 172, 110, 0.4); /* Açık şeffaf yeşil */
+    border: none;
+    width: 20px; /* Çizgi şeklinde daha uzun */
+    height: 4px; /* İnce çubuk */
+    border-radius: 2px; /* Hafif yuvarlatılmış köşeler */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Geçiş efekti */
+  }
+  
+  /* Geçiş kutucuklarının üzerine gelindiğinde */
+  .carousel-indicators button:hover {
+    background-color: rgba(90, 172, 110, 0.6); /* Daha belirgin açık yeşil */
+  }
+  
+  /* Aktif olan kutucuk */
+  .carousel-indicators .active {
+    background-color: #5aac6e; /* Tam yeşil */
+    opacity: 1; /* Tam opaklık */
+  }
+
+  /* öne cıkan urunler arka plan rengı */
+  section.öne-cikan-ürün{
+    background-color: #e9eef4;
+  }
+
+  /* footer arka plan rengı*/
+  footer{
+    background-color: #212934;
+  }
+
+  /* footer altındakı lınkler ve hover olması */
+  footer div.container div.row a:hover{
+    color: #5baa72 !important;
+  }
+  footer h2.text-success{
+    color: #5aac6e !important;
+  }
+/* footer ıcındekı alt sıyah ve lınk */
+  footer div.footer-bg{
+    background-color: #1d242e;
+  }
+  footer div.footer-bg div.container p a:hover{
+    color: #5aac6e !important;
+  }
+
+

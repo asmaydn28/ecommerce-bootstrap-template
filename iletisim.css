@@ -1,0 +1,46 @@
+/* sıtenın en basındakı header */
+header.header-hero{
+    background-color: #212934;
+}
+/* navbar brend logo renk */
+a.navbar-brand,
+a.navbar-brand:hover{
+    color: #5aac6e;
+}
+/* navbar ıcındekı lınklerın hover olunca rengı degısmesı */
+ul.navbar-link-color li a:hover{
+    color: #5aac6e;
+}
+/* navbar ıcon yanyana gelme */
+@media (max-width: 991px) {
+  .navbar-collapse ul:last-child {
+    flex-direction: row !important;
+    justify-content: start;
+  }
+  .navbar-collapse ul:last-child li {
+    padding: 0 10px;
+  }
+}
+/* contaact us arka plan */
+section.contact-us{
+    background-color: #e9eef4;
+}
+/* footer arka plan rengı*/
+footer{
+    background-color: #212934;
+  }
+
+  /* footer altındakı lınkler ve hover olması */
+  footer div.container div.row a:hover{
+    color: #5baa72 !important;
+  }
+  footer h2.text-success{
+    color: #5aac6e !important;
+  }
+/* footer ıcındekı alt sıyah ve lınk */
+  footer div.footer-bg{
+    background-color: #1d242e;
+  }
+  footer div.footer-bg div.container p a:hover{
+    color: #5aac6e !important;
+  }

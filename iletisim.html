@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>İletişim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="iletisim.css">
+  </head>
+  <body>
+<!-- sitenin en basındakı header kısmı -->
+<header class="header-hero d-none d-lg-block">
+    <div class="container py-1 d-flex">
+        <div class="me-auto">
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+            <a href="https://asimaydin.netlify.app/" class="text-decoration-none text-light me-2">asmaydn2828@gmail.com<a>
+            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+            <a href="https://asimaydin.netlify.app/" class="text-decoration-none text-light">555 555 55 55</a>
+        </div>
+        <div>
+            <a href="#"><i class="fa-brands fa-facebook me-2" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram me-2" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter me-2" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin me-2" style="color: #ffffff;"></i></a>
+        </div>
+    </div>
+</header>
+<!-- navbar kısmı -->
+<section class="shadow">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 fw-bold" href="index.html">2A</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-link-color">
+                      <li class="nav-item">
+                        <a class="nav-link me-5 fs-5" aria-current="page" href="index.html">Ev</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-5 fs-5" href="hakkımıda.html">Hakkımda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-5 fs-5" href="magaza.html">Mağaza</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-5 fs-5" href="iletisim.html">İletişim</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="fa-solid fa-magnifying-glass fs-5" style="color: #000000;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            <i class="fa-solid fa-cart-shopping fs-5" style="color: #000000;"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            <i class="fa-solid fa-user fs-5" style="color: #000000;"></i>
+                          </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<!-- bize ulaşın kısmı -->
+<section class="contact-us">
+  <div class="container">
+    <div class="py-5 text-center">
+      <h1 class="fw-light">Bize Ulaşın</h1>
+      <p>Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48248.3352729681!2d38.33803425243132!3d40.90432204184064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40636c6b991a79b7%3A0x2409f2df5be31b5f!2sGiresun%2C%20Giresun%20Merkez%2FGiresun!5e0!3m2!1str!2str!4v1735228507889!5m2!1str!2str" class="m-0 p-0" width="100%" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<!-- form -->
+<section>
+  <div class="container py-5">
+    <form action="">
+      <div class="row py-5 w-75 mx-auto">
+        <div class="col-md-6 col-12 mb-3">
+          <label for="first_name" class="form-label">Adınız</label>
+          <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Ad Soyad Yazınız" required>
+        </div>
+        <div class="col-md-6 col-12 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="örnek@hotmail.com" required>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="subject" class="form-label">Konu</label>
+          <input type="text" id="subject" name="subject" class="form-control" placeholder="Konu Başlığı Belirtin" required>
+        </div>
+        <div class="col-12 mb-3">
+          <label for="message" class="form-label">Mesajınız</label>
+          <textarea style="height: 200px;" name="message" id="message" class="form-control" placeholder="Mesajınızı Yazın" required></textarea>
+        </div>
+        <div class="col-12 mb-3">
+          <button type="submit" class="btn btn-success btn-lg d-grid ms-auto">Gönder</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- footer kısmı -->
+<footer>
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-md-4 col-12 pb-md-0 pb-5">
+        <div class="text-white">
+          <h2 class="text-success">2A Shop</h2>
+          <hr>
+          <div class="pb-2">
+            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+          <span>Türkiye Giresun</span>
+          </div>
+            <a href="#" class="text-decoration-none text-white d-block pb-2"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> 555 555 55 55</a>
+            <a href="#" class="text-decoration-none text-white d-block"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> asmaydn2828@gmail.com</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 pb-md-0 pb-5">
+        <div class="text-white">
+          <h2>Ürünler</h2>
+          <hr>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Lüks</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Spor Giyim</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Erkek Ayakkabı</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Kadın Ayakkabı</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Popüler Elbise</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Spor Salonu Aksesuarları</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Spor Ayakkabı</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="text-white">
+          <h2>Daha Fazla Bilgi</h2>
+          <hr>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Ev</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Hakkımızda</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">Mağaza Konumları</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">SSS</a>
+          <a href="#" class="text-decoration-none text-white fs-5 d-block">İletişim</a>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <hr class="border-1 border-white">
+        <div class="d-block d-md-flex text-md-start text-center">
+          <a href="#"><i class="fa-brands fa-facebook fs-2 me-3" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fs-2 me-3" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter fs-2 me-3" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin fs-2 me-3" style="color: #ffffff;"></i></a>
+          <div class="input-group ms-md-auto w-auto pt-md-0 pt-3">
+            <input type="text" class="form-control" placeholder="Email Adres" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-success disabled" type="button" id="button-addon2">Takipçi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bg py-3 d-flex align-items-center justify-content-center text-white">
+    <div class="container">
+      <p>Telif Hakkı © 2024 2A | <a href="https://asimaydin.netlify.app/" target="_blank" class="text-white">Asım Aydın</a> tarafından tasarlanmıştır</p>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

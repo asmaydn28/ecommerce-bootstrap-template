@@ -1,0 +1,102 @@
+/* sıtenın en basındakı header */
+header.header-hero{
+    background-color: #212934;
+}
+/* navbar brend logo renk */
+a.navbar-brand,
+a.navbar-brand:hover{
+    color: #5aac6e;
+}
+/* navbar ıcındekı lınklerın hover olunca rengı degısmesı */
+ul.navbar-link-color li a:hover{
+    color: #5aac6e;
+}
+/* navbar ıcon yanyana gelme */
+@media (max-width: 991px) {
+    .navbar-collapse ul:last-child {
+      flex-direction: row !important;
+      justify-content: start;
+    }
+    .navbar-collapse ul:last-child li {
+      padding: 0 10px;
+    }
+  }
+/* accordıon sekıllendırme */
+.accordion-button:not(.collapsed){
+    background-color: white;
+    box-shadow: none;
+}
+.accordion{
+    --bs-accordion-btn-focus-box-shadow:none;
+    --bs-accordion-border-color:none;
+
+    --bs-accordion-btn-padding-x:0rem;
+    --bs-accordion-btn-padding-y:1rem;
+
+    --bs-accordion-body-padding-x:0rem;
+    --bs-accordion-body-padding-y:0rem;
+}
+.accordion-button{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* link hover olma */
+a.links:hover{
+    color: #5aac6e !important;
+}
+/* card hover olunca resım parlaklık azalması */
+div.card:hover img{
+    filter: brightness(70%);
+}
+/* card hover olunca resmın ıcındebuton gozukmesı */
+a.a-buton , a.a-buton1 , a.a-buton2{
+    display: none;
+}
+div.card:hover a.a-buton{
+    display: block;
+    margin-left: 40%;
+    margin-top: 45%;
+}
+div.card:hover a.a-buton1{
+    display: block;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+div.card:hover a.a-buton2{
+    display: block;
+    margin-left: 40%;
+    margin-top: 75%;
+}
+/* markalarımız arka plan */
+section.marka{
+    background-color: #e9eef4;
+}
+/* img marka logo duzenleme */
+img.markalar{
+    width: 10%;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+img.markalar:hover{
+    opacity: 100%;
+    filter: none;
+}
+/* footer arka plan rengı*/
+footer{
+    background-color: #212934;
+  }
+  /* footer altındakı lınkler ve hover olması */
+footer div.container div.row a:hover{
+    color: #5baa72 !important;
+  }
+footer h2.text-success{
+    color: #5aac6e !important;
+  }
+/* footer ıcındekı alt sıyah ve lınk */
+footer div.footer-bg{
+    background-color: #1d242e;
+  }
+footer div.footer-bg div.container p a:hover{
+    color: #5aac6e !important;
+  }
+
